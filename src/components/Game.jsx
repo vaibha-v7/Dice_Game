@@ -64,7 +64,7 @@ const Game = () => {
   
   return (
     
-    <div >
+    <div className='game-shell'>
       <div className='top_sec'>
         <div>
           <Score score={score}/>
@@ -72,7 +72,7 @@ const Game = () => {
 
         <div className='numsel_section'>
           <Numsel error={error} click={handleclick} selectedNum={selNum}/>
-          <h1 onClick={handelh1}>Select Number</h1>
+          <h1 className='select-heading' onClick={handelh1}>Select Number</h1>
         </div>
       </div>
 

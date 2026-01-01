@@ -1,0 +1,17 @@
+:root {
+	color: #0f172a;
+	background-color: #f8fafc;
+}
+
+.app-shell {
+	min-height: 100vh;
+	width: 100%;
+	background: radial-gradient(circle at 20% 20%, #e0f2fe 0, transparent 35%),
+		radial-gradient(circle at 80% 0%, #fef3c7 0, transparent 30%),
+		#f8fafc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: clamp(16px, 4vw, 40px);
+	box-sizing: border-box;
+}
